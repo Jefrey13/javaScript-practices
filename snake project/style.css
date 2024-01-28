@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+    --white:#fff;
+    --primary: #FF5714;
+    --secondary: #FFB800;
+    --tertiary: #6EEB83;
+    --emptySquare: rgb(210, 208, 208);
+    --snakeSquare:rgb(96, 96, 229);
+    --hover:rgba(96, 96, 229, .9);
+    --foodSquare: rgb(237, 67, 67);
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(140,245,123);
+background: radial-gradient(circle, rgb(146, 234, 133) 0%, rgb(81, 223, 93) 99%);
+}
+
+#board, .boardInfo {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+.score{
+    font-size: 26;
+    color: var(--tertiary);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: var(--snakeSquare);
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    text-shadow: 1px 1px 1px 1px rgb(96, 96, 229, .4);
+    &:hover{
+        background-color: var(--hover);
+    }
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+.scoretext{
+    color: rgb(31, 30, 30);
+    font-size: 20px;
+    font-weight: 500;
+}
+.gameovertext{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: #6d71b5;
+}
+
+.snakeSquare {
+    background-color: var(--tertiary);
+    border: 1px solid #3b3b3b;
+}
+
+.foodSquare {
+    background-color: var(--foodSquare);
+    border: 1px solid #434242;
+}
