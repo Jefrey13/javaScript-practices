@@ -34,7 +34,7 @@ background: radial-gradient(circle, rgb(146, 234, 133) 0%, rgb(81, 223, 93) 99%)
 }
 .score{
     font-size: 26;
-    color: var(--tertiary);
+    color: rgb(42, 41, 41);
     display: flex;
     align-items: center;
     gap: 3px;
