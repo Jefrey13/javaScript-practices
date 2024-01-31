@@ -2,6 +2,8 @@
 
 Welcome to the JavaScript practice repository. Here, you'll find a variety of exercises and projects to enhance your programming skills with JavaScript. From simple games to practical utilities, this repository has something for everyone.
 
+![Task List](./site/assets/bg.png)
+
 ## Repository Contents
 
 ### 1. Task List
