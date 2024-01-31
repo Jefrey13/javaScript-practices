@@ -1,21 +1,88 @@
-# JavaScript Projects - Jefrey Zuniga
+# JavaScript Practice Repository
 
-Welcome to my JavaScript projects repository! Here you'll find three initial projects I've developed as part of my journey in web development.
+Welcome to the JavaScript practice repository. Here, you'll find a variety of exercises and projects to enhance your programming skills with JavaScript. From simple games to practical utilities, this repository has something for everyone.
 
-## 1. Snake Game
+## Repository Contents
 
-The Snake Game is a classic arcade game where you control a snake and must eat food to make it grow. Avoid hitting walls and your own tail. This project uses HTML, CSS, and JavaScript to create the game logic.
+### 1. Task List
 
-![Snake Game](/screenshots/snake_game.png)
+Organize your daily tasks with this simple to-do list application. Add, remove, and mark your completed tasks.
 
-## 2. Stopwatch
+![Task List](./site/assets/taskList.png)
 
-The Stopwatch is a simple tool to measure time. You can start, stop, and reset the stopwatch as needed. This project utilizes HTML, CSS, and JavaScript to create the user interface and stopwatch functionality.
+###  2. Memory Game
 
-![Stopwatch](/screenshots/stopwatch.png)
+Have fun playing the Memory Game! Test your memory skills and enjoy the challenge.
 
-## 3. Caesar Cipher
+![Memory Game](./site/assets/memoryGame.png)
 
-The Caesar Cipher is a classical encryption technique where each letter in the original text is shifted a fixed number of positions to the right in the alphabet. This project allows you to encrypt and decrypt messages using the Caesar Cipher. The implementation is done in JavaScript.
+### 3. Interactive Color Palette
 
-![Caesar Cipher](/screenshots/caesar_cipher.png)
+Explore an interactive color palette that allows you to select and copy hexadecimal codes for your projects.
+
+![Color Palette](./site/assets/palette.png)
+
+### 4. More Projects and Exercises
+
+In addition to the mentioned ones, you'll find a variety of projects and exercises to practice and enhance your JavaScript skills.
+
+Folder Structure
+```
+└── 📁site
+    └── 📁assets
+        └── bg.png
+        └── game-over.png
+        └── memoryGame.png
+        └── ninja-gaming.png
+        └── palette.png
+        └── taskList.png
+    └── index.html
+    └── 📁projects
+        └── 📁Caesar cipher
+            └── index.html
+            └── script.js
+            └── styles.css
+        └── 📁calculator
+            └── calculator.js
+            └── display.js
+            └── index.html
+            └── script.js
+            └── styles.css
+        └── 📁colorPalettes
+            └── index.html
+            └── script.js
+            └── styles.css
+        └── 📁hangman
+            └── index.html
+            └── palabras.js
+            └── script.js
+            └── styles.css
+        └── 📁memoryGame
+            └── 📁images
+                └── blank.jpg
+                └── cheeseburger.png
+                └── fries.png
+                └── hotdog.png
+                └── ice-cream.png
+                └── milkshake.png
+                └── pizza.png
+                └── white.png
+                └── win.png
+            └── index.html
+            └── script.js
+            └── styles.css
+        └── 📁snake project
+            └── index.html
+            └── script.js
+            └── style.css
+        └── 📁taskList
+            └── index.html
+            └── script.js
+            └── styles.css
+        └── 📁timer
+            └── index.html
+            └── script.js
+            └── styles.css
+    └── styles.css
+    └── wavesOpacity.svg
+```

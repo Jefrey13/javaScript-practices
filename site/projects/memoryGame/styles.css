@@ -1,0 +1,31 @@
+body{
+  display: grid;
+  place-items: center;
+  background-color: rgb(188, 162, 244);
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    width: 400px;
+    height: 300px;
+  }
+h3 #result{
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(234, 241, 28);
+  margin-left: 10px;
+}
+img{
+  max-width: 100px;
+  max-height: 100px;
+}
+#imgContainer{
+  width: 500px;
+  height: 300px;
+  display: none;
+}
+.showImgBg{
+  min-width: 100%;
+  min-height: 100%;
+}
